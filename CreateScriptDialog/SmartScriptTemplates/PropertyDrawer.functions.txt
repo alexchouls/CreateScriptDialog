@@ -1,0 +1,2 @@
+DEFAULT override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Draw the property inside the given rect.
+override float GetPropertyHeight(SerializedProperty property, GUIContent label) return EditorGUIUtility.singleLineHeight; Specify how tall the GUI for this field is in pixels.
